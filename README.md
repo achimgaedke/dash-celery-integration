@@ -7,7 +7,7 @@ This is not (yet) a Pull-Request, as the CeleryManager is being refactored at th
 The module `celery_manager_tasks` provides a drop in replacement for the `CeleryLongCallbackManager`.
 It allows to return tasks or signatures, which (eventually when executed by the celery workers) will provide the result back to dash.
 
-The example program will start 100 `embarassingly_parallel` tasks, returning the task PID after a short sleep. The `collect` task will provide a summary statistics about the runner utilsiation to dash.
+The example program will start 100 `embarassingly_parallel` tasks, returning the task PID after a short sleep. The `collect` task will provide a summary statistics about the runner utilsiation to dash. The button `start` will repeat this procedure.
 
 The project should (hopefully) work out of the box, starting 3 programms
 
