@@ -1,0 +1,9 @@
+name: celery-integration
+channels:
+  - conda-forge
+dependencies:
+  - celery>=5.2
+  - dash=2.5.1
+  - python>=3.10
+  - redis-py
+  - redis-server
