@@ -20,3 +20,5 @@ I have developed this example on a Ubuntu Linux 22 box using conda/mamba with
 * `dash` 2.5.1
 * `celery` 5.2.7
 * `redis` 7
+
+`mamba env create` should do the trick and provide a conda environment named `celery-integration`.
